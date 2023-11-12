@@ -1,0 +1,87 @@
+/* Colors */
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --soft-blue-cover: hsla(215, 52%, 70%, 0.601);
+
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap");
+body {
+    font-size: 18px; /* Body copy font size */
+    font-size: 14px;
+    background-color: var(--very-dark-blue-main-bg);
+    font-family: "Outfit", sans-serif;
+
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+p {
+    font-weight: 300; /* Font weight for paragraph */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600; /* Font weight for headings */
+}
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
