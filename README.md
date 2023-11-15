@@ -5,7 +5,6 @@
 ## Introduction
 Welcome to me doing what everyone seems to be pretty sure in "not doing!" trying every Framework! 🌐 In this repository, I'm exploring a new web development framework every week. The goal is to understand basic concepts, highlight differences, and note my learning journey. 🤓
 
-
 ###  Template Note for each framework 
 #### Week [X]: [Framework Name]
 #### Project Overview
@@ -32,3 +31,4 @@ Closing thoughts on the Framework. Any key takeaways from this experience?
 
 #### Acknowledgments
 Credit to any resources, tutorials, or communities that supported me during this challenge.
+
