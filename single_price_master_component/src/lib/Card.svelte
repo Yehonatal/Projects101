@@ -2,9 +2,7 @@
     import Tag from "./Tag.svelte";
 </script>
 
-<section
-    class="md:grid md:grid-cols-2 max-w-3xl shadow-xl rounded-2xl relative"
->
+<div class="md:grid md:grid-cols-2 max-w-3xl shadow-xl rounded-2xl relative">
     <!-- Col 1 -->
     <article
         class="p-8 md:p-10 col-span-2 flex gap-2 flex-col bg-boxOne rounded-t-lg"
@@ -52,6 +50,6 @@
             <li>New videos every week</li>
         </ul>
     </article>
-</section>
+</div>
 
 <Tag />
