@@ -1,4 +1,4 @@
-#### [Project - 103: Live](https://projects101-feature-section.vercel.app/)
+#### [Project - 103: Live](https://projects101-feature.vercel.app/)
 
 ### Week 3: Vue 3 + Vite + Tailwind
 
