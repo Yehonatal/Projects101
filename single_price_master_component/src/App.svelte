@@ -1,7 +1,7 @@
 <script lang="ts">
-    // import Counter from './lib/Counter.svelte'
+    import Card from "./lib/Card.svelte";
 </script>
 
 <main>
-    <h1 class="text-3xl font-bold">Being Built . . .</h1>
+    <Card />
 </main>

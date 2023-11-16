@@ -1,21 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+    font-family: "Karla", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
+    --color-cyan: hsl(179, 62%, 43%);
+    --color-bright-yellow: hsl(71, 73%, 54%);
+
+    --color-light-gray: hsl(204, 43%, 93%);
+    --color-grayish-blue: hsl(218, 22%, 67%);
+
+    --crl-primary-100: #29b3b0;
+    --crl-primary-200: #45d1cfe0;
+    --crl-accent: #bfde33;
+    --crl-neutral-100: hsl(204, 43%, 93%);
+    --crl-neutral-200: hsl(218, 22%, 67%);
 }
 
 body {
@@ -24,20 +36,11 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-}
-
-.card {
-    padding: 2em;
+    background-color: var(--color-light-gray);
 }
 
 #app {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;
 }
