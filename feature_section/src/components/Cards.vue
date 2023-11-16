@@ -7,9 +7,11 @@ import IconFour from "../assets/images/icon-karma.svg";
 
 <template>
     <!-- Cards -->
-    <div class="grid grid-cols-3 grid-rows-4 gap-6 text-left">
+    <div
+        class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-4 gap-6 text-left"
+    >
         <section
-            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[red] border-0 card row-start-2 row-span-2"
+            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[red] border-0 card lg:row-start-2 lg:row-span-2"
         >
             <h1 class="text-lg font-bold">Supervisor</h1>
             <p class="font-light mt-2">
@@ -20,7 +22,7 @@ import IconFour from "../assets/images/icon-karma.svg";
             </div>
         </section>
         <section
-            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Cyan] border-0 card col-start-2 col-end-3 row-start-1 row-end-3"
+            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Cyan] border-0 card lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3"
         >
             <h1 class="text-lg font-bold">Team Builder</h1>
             <p class="font-light mt-2">
@@ -32,7 +34,7 @@ import IconFour from "../assets/images/icon-karma.svg";
             </div>
         </section>
         <section
-            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Orange] border-0 card col-start-2 col-end-3 row-start-3 row-end-5"
+            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Orange] border-0 card lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-5"
         >
             <h1 class="text-lg font-bold">Calculator</h1>
             <p class="font-light mt-2">
@@ -44,7 +46,7 @@ import IconFour from "../assets/images/icon-karma.svg";
             </div>
         </section>
         <section
-            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Blue] border-0 card col-start-3 col-end-4 row-start-2 row-end-4"
+            class="text-black bg-white p-6 rounded-lg shadow-lg border-t-[5px] border-t-[Blue] border-0 card lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-4"
         >
             <h1 class="text-lg font-bold">Karma</h1>
             <p class="font-light mt-2">
