@@ -1,6 +1,7 @@
 ### Lets try out a framework a week 🤓
 - [React](https://react.dev/)
 - [Svelte](https://svelte.dev/)
+- [Vue 3](https://vuejs.org/)
 
 ## Introduction
 Welcome to me doing what everyone seems to be pretty sure in "not doing!" trying every Framework! 🌐 In this repository, I'm exploring a new web development framework every week. The goal is to understand basic concepts, highlight differences, and note my learning journey. 🤓
@@ -41,7 +42,7 @@ Credit to any resources, tutorials, or communities that supported me during this
 | Vanilla   | [ ]   | [ ]    | [ ] |
 | React     | ✅    | [ ]    | [ ] |
 | Svelte    | ✅    | [ ]    | [ ] |
-| Vue       | [ ]   | [ ]    | [ ] |
+| Vue       | ✅    | [ ]    | [ ] |
 | Angular   | [ ]   | [ ]    | [ ] |
 | Solid     | [ ]   | [ ]    | [ ] |
 | Next.js   | [ ]   | [ ]    | [ ] |
