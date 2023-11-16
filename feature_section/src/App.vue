@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Card from "./components/Cards.vue";
+import Vue from "./assets/vue.svg";
 </script>
 
 <template>
@@ -8,6 +9,13 @@ import Card from "./components/Cards.vue";
     <br />
     <br />
     <Card />
+
+    <div
+        class="tag w-min bg-white shadow-lg border-4 border-green-600 p-2 font-bold absolute bottom-0 right-0"
+    >
+        <img :src="Vue" alt="vue tag" class="scale-[1.5] mb-2" />
+        <div>U E</div>
+    </div>
 </template>
 
 <style scoped>
