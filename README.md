@@ -32,3 +32,21 @@ Closing thoughts on the Framework. Any key takeaways from this experience?
 #### Acknowledgments
 Credit to any resources, tutorials, or communities that supported me during this challenge.
 
+
+
+# Current List of Frameworks trying out.
+
+| Framework | Small | Decent | Big |
+|-----------|-------|--------|-----|
+| Vanilla   | [ ]   | [ ]    | [ ] |
+| React     | ✅    | [ ]    | [ ] |
+| Svelte    | ✅    | [ ]    | [ ] |
+| Vue       | [ ]   | [ ]    | [ ] |
+| Angular   | [ ]   | [ ]    | [ ] |
+| Solid     | [ ]   | [ ]    | [ ] |
+| Next.js   | [ ]   | [ ]    | [ ] |
+| Qwik      | [ ]   | [ ]    | [ ] |
+| Alpine    | [ ]   | [ ]    | [ ] |
+| Astro     | [ ]   | [ ]    | [ ] |
+| Nuxt.js   | [ ]   | [ ]    | [ ] |
+
