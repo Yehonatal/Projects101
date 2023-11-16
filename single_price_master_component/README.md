@@ -1,5 +1,5 @@
 
-#### [Project - 102: Link](https://projects101-single-price.vercel)
+#### [Project - 102: Link](https://projects101-single-price.vercel.app/)
 
 ### Week 2: Svelte + TS + Vite + Card + Tailwind
 #### Project Overview
