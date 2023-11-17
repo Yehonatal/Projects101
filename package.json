@@ -1,0 +1,10 @@
+{
+    "name": "project101-monorepo",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build:preview_card_component": "bun --prefix preview_card_component run build",
+        "build:single_price_master_component": "bun --prefix single_price_master_component run build",
+        "build:feature_section": "bun --prefix feature_section run build"
+    }
+}
